@@ -24,7 +24,7 @@ gem 'tty-prompt'
 gem 'pg'
 ```
 
-Here we're telling Bundler that we need to use the `sequel` and the `tty-prompt` gems.  Bundler will go to rubygems.org to get the latest versions of these gems for us.
+Here we're telling Bundler that we need to use the `sequel`, `tty-prompt`, and `pg` gems.  Bundler will go to rubygems.org to get the latest versions of these gems for us.
 
 To install the gems and their dependencies, do:
 ```
