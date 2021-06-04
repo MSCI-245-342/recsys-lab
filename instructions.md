@@ -21,6 +21,7 @@ source 'https://rubygems.org'
 
 gem 'sequel'
 gem 'tty-prompt'
+gem 'pg'
 ```
 
 Here we're telling Bundler that we need to use the `sequel` and the `tty-prompt` gems.  Bundler will go to rubygems.org to get the latest versions of these gems for us.
