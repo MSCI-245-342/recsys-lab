@@ -21,6 +21,8 @@ if title_search.count > 1
   end
 
   book_id = prompt.select("Which book? (type to search, enter to select) ", choices, filter: true, per_page: 10 ) 
+elsif title_search.count == 1
+  book_id = title_search.first[:id]
 else
   puts "I'm sorry, but there are not any matching books."
   exit(1)
